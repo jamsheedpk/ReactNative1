@@ -1,0 +1,51 @@
+{
+  "name": "NativebaseKitchenSink",
+  "version": "2.7.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.4.1",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-prettier": "2.1.2",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-react-native": "3.0.1",
+    "flow-bin": "0.78.0",
+    "flow-typed": "2.5.1",
+    "husky": "0.14.3",
+    "jest": "23.3.0",
+    "prettier": "1.5.3",
+    "react-test-renderer": "16.4.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-native-swiper|react-navigation|native-base|@expo|react-native-scrollable-tab-view|react-native-simple-modal|react-native-iphone-x-helper)/)"
+    ]
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "@mapbox/polyline": "^1.0.0",
+    "color": "1.0.3",
+    "lodash": "4.17.10",
+    "moment": "2.13.0",
+    "native-base": "git+https://github.com/GeekyAnts/NativeBase.git#master",
+    "prop-types": "^15.6.2",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-button": "^2.3.0",
+    "react-native-maps": "^0.21.0",
+    "react-native-modalbox": "^1.6.0",
+    "react-native-prompt": "^1.0.0",
+    "react-navigation": "1.5.0",
+    "styled-components": "^3.4.5",
+    "tcomb-form-native": "^0.6.20",
+    "watchman": "^1.0.0"
+  }
+}
